@@ -1,0 +1,12 @@
+
+	# WP Maximum Execution Time Exceeded
+	<IfModule mod_php5.c>
+		php_value upload_max_filesize 256M 
+		php_value max_execution_time 300
+	</IfModule>
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress
